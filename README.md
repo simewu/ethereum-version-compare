@@ -1,4 +1,4 @@
-A comparison tool to quantify all changes made in Bitcoin over the past few decades.
+A comparison tool to quantify all changes made in Ethereum over the past few decades.
 
 ## Results
 | Ethereum Version    | Num all files | Size all files (B) | Num code files (cpp, py, c, h, sh) | Size code files (B) | \* | All line additions | All line removals | All files changed | Ratio all files changed | All changed bytes | Ratio all bytes changed | \* | Code line additions | Code line removals | Code files changed | Ratio code files changed | Code changed bytes | Ratio code bytes changed |
