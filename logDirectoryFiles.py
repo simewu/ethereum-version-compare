@@ -218,7 +218,7 @@ def getDirectoryStats(directory, prevVersionDirectory):
 		'Ethereum Version': directory,
 		'Num all files': len(files),
 		'Size all files (B)': filesSize,
-		'Num code files (cpp, py, c, h, sh)': len(codeFiles),
+		'Num code files (sol, go, c, js, java, h, cpp, sh, s, py)': len(codeFiles),
 		'Size code files (B)': codefilesSize,
 		'*': '*',
 		'All line additions': str(comparison['Additions']),
