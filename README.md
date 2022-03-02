@@ -1,7 +1,5 @@
-## WARNING
-This repository is 23.9 GB in size. To avoid the overhead of re-computing it, the result is appended below.
-
-Please visit the `code only` branch to clone only the code.
+# WARNING
+This repository is 23.9 GB in size. To avoid the overhead of re-computing everything, the result is appended below.
 
 ## Overview
 A comparison tool to quantify all changes made in Ethereum over the past few decades.
