@@ -1,11 +1,15 @@
+## WARNING
+This repository is 23.9 GB in size. To avoid the overhead of re-computing it, the result is appended below.
+
+Please visit the `code only` branch to clone only the code.
+
+## Overview
 A comparison tool to quantify all changes made in Ethereum over the past few decades.
 
 The script considers code files as those ending in (.cpp, .py, .c, .h, .sh, .sol, .go, .c, .js, .java).
 
-WARNING: This repository is 23.9GB in size. To avoid the overhead of re-computing it, the result is appended below.
-
 ## Results
-| Ethereum Version     | Num all files | Size all files (B) | Num code files (cpp, py, c, h, sh, sol, go, c, js, java) | Size code files (B) | \* | All line additions | All line removals | All files changed | Ratio all files changed | All changed bytes | Ratio all bytes changed | \* | Code line additions | Code line removals | Code files changed | Ratio code files changed | Code changed bytes | Ratio code bytes changed |
+| Ethereum Version     | Num all files | Size all files (B) | Num code files | Size code files (B) | \* | All line additions | All line removals | All files changed | Ratio all files changed | All changed bytes | Ratio all bytes changed | \* | Code line additions | Code line removals | Code files changed | Ratio code files changed | Code changed bytes | Ratio code bytes changed |
 | -------------------- | ------------- | ------------------ | -------------------------------------------------------- | ------------------- | -- | ------------------ | ----------------- | ----------------- | ----------------------- | ----------------- | ----------------------- | -- | ------------------- | ------------------ | ------------------ | ------------------------ | ------------------ | ------------------------ |
 | go-ethereum-0.5.19   | 52            | 504432             | 33                                                       | 404777              | \* | N/A                | N/A               | N/A               | N/A                     | N/A               | N/A                     | \* | N/A                 | N/A                | N/A                | N/A                      | N/A                | N/A                      |
 | go-ethereum-0.6.0    | 53            | 505775             | 34                                                       | 406069              | \* | 93                 | 42                | 12                | 22.6415%                | 67816             | 13.4083%                | \* | 90                  | 41                 | 10                 | 29.4118%                 | 39284              | 9.6742%                  |
